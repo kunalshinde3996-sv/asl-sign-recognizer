@@ -1,0 +1,24 @@
+# Environment
+venv/
+__pycache__/
+*.pyc
+
+# Data (raw Kaggle dataset is ~1 GB; processed CSVs are reproducible)
+data/raw/*
+!data/raw/.gitkeep
+
+# Large model files
+models/*
+!models/.gitkeep
+*.h5
+*.keras
+*.tflite
+*.task
+*.joblib
+*.pkl
+
+# IDE / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,12 @@
+Top 5 most-confused class pairs (test split):
+
+1. M <-> N: 3 errors (M->N: 3, N->M: 0)
+   Likely reason: Both are fists with the thumb under the fingers (3 vs 2 fingers over it); the thumb is mostly hidden, so landmarks are noisy.
+2. C <-> space: 2 errors (C->space: 0, space->C: 2)
+   Likely reason: In this dataset 'space' is an open, curved, sideways hand; with the fingers bent it looks like C.
+3. G <-> H: 2 errors (G->H: 0, H->G: 2)
+   Likely reason: Sideways hands; G extends one finger, H two.
+4. H <-> J: 2 errors (H->J: 0, J->H: 2)
+   Likely reason: J ends with the hand turned sideways and the pinky out; a static frame can look like the sideways H.
+5. R <-> U: 2 errors (R->U: 1, U->R: 1)
+   Likely reason: Two raised fingers; R crosses them. The crossing is small in 2D landmarks.

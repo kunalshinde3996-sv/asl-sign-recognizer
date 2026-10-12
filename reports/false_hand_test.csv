@@ -1,0 +1,3 @@
+timestamp,confidence,frames,seconds,false_hand_frames,false_hand_rate,false_hand_episodes
+2026-10-12 23:48:24,0.5,200,20.9,121,0.605,3
+2026-10-12 23:48:24,0.3,200,20.9,122,0.61,3

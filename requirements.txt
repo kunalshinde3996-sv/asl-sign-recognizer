@@ -1,0 +1,16 @@
+# Verified on Python 3.13 (Windows), 2026-10-12.
+mediapipe==1.1.0
+# mediapipe depends on opencv-contrib-python (a superset of opencv-python).
+# Do NOT also install opencv-python: both packages write the same cv2/ folder and clash.
+opencv-contrib-python==5.0.0.93
+tensorflow==2.21.0
+numpy==2.5.4
+pandas==3.0.6
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+joblib==1.6.0
+tqdm==4.70.1
+kagglehub==1.0.2
+# Use the Windows certificate store (needed behind HTTPS-scanning antivirus such as Avast).
+truststore==0.10.4
